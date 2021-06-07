@@ -1,5 +1,6 @@
 # ChildMatrixC
--This project uses two programs. The goal of this project is to use child processes to more efficiently multiply matrices.<br />
+-This project uses two programs written in C. <br />
+-The goal of this project is to use child processes to more efficiently multiply matrices.<br />
 -The first program is ChildMatrixMultiplyDriver, which takes in the name of the second program and the number of child processes you want to use at command line. <br />
 -Next, ChildMatrixMultiplyDriver creates the number of child processes specified at the command line.<br />
 -It uses execv to then run the other program (also specified at the command line) with the number of child procceses and an argument array that tells which child is running the program.<br />
