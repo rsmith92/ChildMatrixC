@@ -14,7 +14,7 @@
 -Finally we run through and free up all of the memory that we used.<br />
 <br />
 -This program takes in arguments of 1, 2, 4, 8, or 16 children.<br />
--First, I compile the two files with: gcc -o ChildMatrixMultiply ChildMatrixMultiply.c    and    gcc -o ChildMatrixMultiplyDriver ChildMatrixMultiplyDriver.c <br />
+-First, I compile the files with: gcc -o ChildMatrixMultiply ChildMatrixMultiply.c    and    gcc -o ChildMatrixMultiplyDriver ChildMatrixMultiplyDriver.c <br />
 -Next, too run this program I used: ./ChildMatrixMultiplyDriver ./ChildMatrixMultiply 1<br />
 <br />
 -The 1 indicates how many child processes should be used.<br />
